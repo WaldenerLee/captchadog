@@ -87,7 +87,7 @@ public class Captcha extends LinearLayout {
     public Captcha(@NonNull final Context context, @Nullable AttributeSet attrs, @AttrRes int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.Captcha);
-        drawableId = typedArray.getResourceId(R.styleable.Captcha_src, R.drawable.cat);
+        drawableId = typedArray.getResourceId(R.styleable.Captcha_src, R.drawable.img_default);
         progressDrawableId = typedArray.getResourceId(R.styleable.Captcha_progressDrawable, R.drawable.po_seekbar);
         thumbDrawableId = typedArray.getResourceId(R.styleable.Captcha_thumbDrawable, R.drawable.thumb);
         mMode = typedArray.getInteger(R.styleable.Captcha_mode, MODE_BAR);

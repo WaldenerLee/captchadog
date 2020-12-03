@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         captcha = findViewById(R.id.captCha);
 
-        captcha.setBitmap("https://tse2-mm.cn.bing.net/th/id/OIP.gY_Umtnvx6nZQqwNnkVdcAHaE8?pid=Api&rs=1");
+//        captcha.setBitmap("https://tse2-mm.cn.bing.net/th/id/OIP.gY_Umtnvx6nZQqwNnkVdcAHaE8?pid=Api&rs=1");
 
         captcha.setCaptchaListener(new Captcha.CaptchaListener() {
             @Override
