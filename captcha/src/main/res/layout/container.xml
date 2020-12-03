@@ -73,13 +73,13 @@
 
         </LinearLayout>
 
-        <ImageView
-            android:id="@+id/refresh"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="right|top"
-            android:layout_margin="5dp"
-            android:src="@drawable/refresh" />
+<!--        <ImageView-->
+<!--            android:id="@+id/refresh"-->
+<!--            android:layout_width="24dp"-->
+<!--            android:layout_height="24dp"-->
+<!--            android:layout_gravity="right|top"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:src="@drawable/refresh" />-->
 
 
     </FrameLayout>

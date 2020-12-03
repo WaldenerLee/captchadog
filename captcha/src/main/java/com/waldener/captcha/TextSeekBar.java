@@ -22,7 +22,8 @@ class TextSeekBar extends AppCompatSeekBar {
     }
 
     public TextSeekBar(Context context, AttributeSet attrs) {
-        this(context, attrs, R.style.MySeekbarSytle);
+//        this(context, attrs, R.style.MySeekbarSytle);
+        super(context, attrs);
     }
 
     public TextSeekBar(Context context, AttributeSet attrs, int defStyleAttr) {

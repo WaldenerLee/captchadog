@@ -27,14 +27,8 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public String onFailed(int failCount) {
-                Log.i("MainActivity", "onFailed " + failCount);
-                return null;
-            }
-
-            @Override
-            public String onMaxFailed() {
-                Log.i("MainActivity", "onMaxFailed");
+            public String onFailed() {
+                Log.i("MainActivity", "onFailed ");
                 return null;
             }
         });
