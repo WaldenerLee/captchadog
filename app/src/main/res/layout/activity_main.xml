@@ -15,4 +15,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <com.waldener.captcha.Captcha
+        android:id="@+id/captCha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mode="mode_bar"
+        app:blockSize="50dp"
+        app:max_fail_count="5"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
