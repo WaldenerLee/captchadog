@@ -155,6 +155,7 @@ public class Captcha extends LinearLayout {
                     } else {
                         isResponse = true;
                         accessFailed.setVisibility(GONE);
+                        accessSuccess.setVisibility(GONE);
                         vertifyView.down(0);
                     }
                 }
