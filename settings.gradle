@@ -1,2 +1,3 @@
+include ':captcha'
 include ':app'
 rootProject.name = "captchadog"
